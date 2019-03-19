@@ -3,7 +3,11 @@ interface INavigator extends Navigator {
 }
 
 function validate(doNotTrackValue: string | null) {
-  return doNotTrackValue === '1' || doNotTrackValue === 'yes';
+  if (doNotTrackValue === null) {
+    return false;
+  }
+
+  return doNotTrackValue[0] === '1' || doNotTrackValue === 'yes';
 }
 
 function getDNTValue(window: Window) {
