@@ -1,6 +1,6 @@
 {
   "name": "@dashdashzako/dnt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Browser Do Not Track detection utility",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
