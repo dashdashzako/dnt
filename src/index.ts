@@ -2,11 +2,7 @@ interface INavigator extends Navigator {
   msDoNotTrack: string | null;
 }
 
-function validate(doNotTrackValue: string | null) {
-  if (doNotTrackValue === null) {
-    return false;
-  }
-
+function validate(doNotTrackValue: string) {
   return doNotTrackValue[0] === '1' || doNotTrackValue === 'yes';
 }
 
