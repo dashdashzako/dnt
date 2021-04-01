@@ -1,6 +1,5 @@
 # dnt
 
-[![travis build status](https://img.shields.io/travis/com/dashdashzako/dnt.svg)](https://travis-ci.com/dashdashzako/dnt)
 [![codecov](https://codecov.io/gh/dashdashzako/dnt/branch/master/graph/badge.svg)](https://codecov.io/gh/dashdashzako/dnt)
 [![npm version](https://img.shields.io/npm/v/@dashdashzako/dnt.svg)](https://www.npmjs.com/package/@dashdashzako/dnt)
 ![License type](https://img.shields.io/github/license/dashdashzako/dnt.svg)
